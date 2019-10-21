@@ -24,6 +24,7 @@ public class splashscreen extends AppCompatActivity {
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getSupportActionBar().hide();
         RelativeLayout l1,l2;
         ImageView img;
         Animation uptodown,downtoup;
